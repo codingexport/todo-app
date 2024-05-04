@@ -1,11 +1,11 @@
 let todoList = [
     {
         item: 'Todo app created by akhil',
-        duedate: 12 - 5- 2024
+        duedate: "12 / 5 /2024"
     },
     {
         item: 'Done',
-        duedate: 12 - 5 - 2024
+        duedate: "12 / 5 / 2024"
     }
 ];
 displayitem();
