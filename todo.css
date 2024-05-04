@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2e2727;
+    color: aliceblue;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    box-shadow: 0px 0px 70px 10px #293efd;
+    border-radius: 25px;
+    padding: 30px;
+}
+#Main-heading{
+    text-align: center;
+    
+}
+.grid-item{
+ display: grid;
+ grid-template-columns: 100px 200px 100px;
+ column-gap: 200px;
+ row-gap: 10px;
+ margin-top: 10px;
+}
+#input-box{
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+#input-date{
+    padding: 10px 10px;
+    cursor: pointer;   
+}
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+p{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.btn{
+    background-color: red;
+}
